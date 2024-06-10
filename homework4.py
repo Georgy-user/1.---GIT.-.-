@@ -22,10 +22,16 @@ print(my_string.upper())
 print(my_string.lower())
 
 # - Измените строку my_string, удалив все пробелы.
-print(my_string.replace(' ', '#'))
+print(my_string.replace(' ', ''))
+
+# Двойное подчёркивание получается и аргументы появляются, если задать команду так:
+#print(my_string.replace('', ''))
 
 # - Выведите первый символ строки my_string.
 print(my_string[0])
 
 # Выведите последний символ строки my_string.
 print(my_string[-1])
+
+
+
